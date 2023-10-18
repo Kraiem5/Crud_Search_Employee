@@ -1,4 +1,4 @@
-const { getEmp, addEmp, updateEmp,deleteEmp } = require("../services/employe");
+const { getEmp, addEmp, updateEmp, deleteEmp } = require("../services/employe");
 
 module.exports.getEmplye = async (req, res) => {
     try {

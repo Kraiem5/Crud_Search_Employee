@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon ./server/index.js",
     "client": "cd ../exempleMean && ng serve",
-    "full": "concurrently \"npm run test\" \"npm run client\""
+    "full": "concurrently \"npm run start\" \"npm run client\""
   },
   "author": "kraiem_abid",
   "license": "ISC",
